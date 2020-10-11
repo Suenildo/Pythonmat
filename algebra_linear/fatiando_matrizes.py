@@ -26,3 +26,19 @@ print()
 print('Vamos retornar a coluna 0 como um vetor (lista)')
 slice_4 = matriz[:, 0]
 print(slice_4)
+
+
+print()
+print('Outra maneira de se obter a mesma coluna:')
+
+j = 0
+j = [i[j] for i in matriz]
+print(j)
+
+
+print()
+print('obtendo um coluna a escolha:')
+
+k = int(input('Informe que coluna você quer obter:'))
+k = [i[k] for i in matriz]
+print(k)
