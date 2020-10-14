@@ -49,6 +49,12 @@ padrão de fato para bibliotecas de álgebra linear; as rotinas têm
 ligações para C e Fortran. Embora a especificação do BLAS seja geral,
 as implementações do BLAS são frequentemente otimizadas para 
 velocidade em uma máquina específica, portanto, usá-las pode trazer 
-benefícios de desempenho substanciais.'''
+benefícios de desempenho substanciais.
+fonte: https://markus-beuckelmann.de/blog/boosting-numpy-blas.html
 
+'''
+
+print()
+print('Obtendo informações sobre métodos do Numpy')
+print(np.info(np.dot))
 
