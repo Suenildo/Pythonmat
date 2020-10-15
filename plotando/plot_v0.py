@@ -28,9 +28,18 @@ plt.ylabel('f(x)')
 plt.grid()
 
 # Vamos plotar a função:
-plt.plot(x,y, color='red', marker='*', markeredgecolor='blue', markerfacecolor='black')
+plt.plot(x,y, color='red', marker='*', markeredgecolor='blue', markerfacecolor='red', markersize=20)
 
 # Vamos exibir o gráfico:
 plt.show()
+
+'''
+(x,y, color='red', marker='*', markeredgecolor='blue', markerfacecolor='red', markersize=20)
+- x e y os eixos;
+- marker='*' --> tipo de marcador
+- markeredgecolor='blue' --> cor da borda do marcador
+- markerfacecolor='red' --> cor do preenchimento do marcador
+- markersize=20 --> tamanho do marcador 
+'''
 
 
