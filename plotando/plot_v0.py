@@ -1,11 +1,5 @@
 """
 Para plotarmos os gráficos deste pacote, usaremos o Matplotlib.
-
-Matplotlib é uma biblioteca de software para criação de gráficos
-e visualizações de dados em geral, feita para e da linguagem de
-programação Python e sua extensão de matemática NumPy.
-
-fonte: https://pt.wikipedia.org/wiki/Matplotlib
 """
 
 import matplotlib.pyplot as plt
