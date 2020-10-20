@@ -13,7 +13,7 @@ def f(x):
 
 
 # Vamos criar valores para x:
-x = range(1, 100)
+x = range(1, 102)
 
 
 # Vamos obter os valores de y:
