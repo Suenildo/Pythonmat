@@ -5,7 +5,11 @@ na linha calculando a inclinação de uma linha secante
 que conecta dois pontos na linha.
 """
 from matplotlib import pyplot as plt
-from calculo_diferencial.calculo_v0 import f
+
+
+def f(x):
+    return x ** 2 + x
+
 
 x = list(range(0, 20))
 y = [f(i) for i in x]
@@ -40,7 +44,6 @@ plt.scatter([x1, x2], [y1, y2], color='green')
 plt.plot(sec_x, sec_y, color='red')
 
 # xxxxxxxxxxxxxxx:
-plt.annotate('mudança Média = ' + str(z), (x2, (y2 + y1)/2))
+plt.annotate('mudança Média = ' + str(z), (x2, (y2 + y1) / 2))
 
 plt.show()
-

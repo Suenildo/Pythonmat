@@ -25,3 +25,4 @@ plt.plot(x, y, color='black')
 # Chamada do gáfico:
 plt.show()
 
+
