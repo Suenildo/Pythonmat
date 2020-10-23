@@ -5,10 +5,7 @@ na linha calculando a inclinação de uma linha secante
 que conecta dois pontos na linha.
 """
 from matplotlib import pyplot as plt
-
-
-def f(x):
-    return x ** 2 + x
+from calculo_diferencial.calculo_v0 import f
 
 
 x = list(range(0, 20))

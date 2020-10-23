@@ -23,6 +23,8 @@ plt.ylabel('f(x)')
 plt.plot(x, y, color='black')
 
 # Chamada do gáfico:
-plt.show()
+
+if __name__ == '__main__':
+    plt.show()
 
 
